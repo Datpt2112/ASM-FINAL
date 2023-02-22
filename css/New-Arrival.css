@@ -336,3 +336,14 @@ footer{
     color: #333;
    font-size: 12px;
 }
+.Sign{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 230px;
+}
+.Sign img{
+    width: 100%;
+    height: 30px;
+}
