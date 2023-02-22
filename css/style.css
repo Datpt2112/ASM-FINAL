@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    height: 4000px;
+    margin: 0 auto;
+    position: relative;
+}
+.box{
+    width: 95%;
+}
+.top{
+    width: 100%;
+    height: 42.5px;
+    background-color: rgb(223, 220, 220);
+    text-align: center;
+}
+.top a{
+    line-height: 40px;
+    font-size: 11px;
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+}
+.pp{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.header-search{
+    width: 13%;
+    height: 50px;
+    margin-left: 1320px;
+}
+.header-search a{
+    line-height: 60px;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 30px;
+    font-size: 14px;
+    float: left;
+}
+.logo{
+    width: 13%;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 43.5%;
+}
+.header_wr{
+    position: sticky inherit;
+    top: 0;
+}
+.brand{
+    margin: 15px 0;
+}
+.fl{
+    float: left;
+}
+nav.menu1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+nav.menu1 > ul > li{  
+    padding: 0 15px;
+    display: inline-block;
+    position: relative;
+}
+.menu1 li a{
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu1 li::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+}
+.menu1 li:hover::after{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 520px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+nav.menu2{
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: white;
+}
+.bx{
+    position: sticky;
+    top: 100px;
+    z-index: 2;
+}
+article{
+    min-height: 700px;
+    width: 100%;
+}
+section{
+    margin-top: 50px;
+}
+.sanpham{
+    width: 20%;
+    height: 500px;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+.mr20{
+    margin-right: 20px;
+}
+.mr10{
+    margin-top: 10px;
+}
+.hinh img{
+    max-width: 100%;
+    height: auto;
+}
+.tieude {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.tieude a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gia{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+span{
+    color: red;
+}
+span del{
+    color: black;
+}
+.text-subdued{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.text-subdued span{
+    color: #333;
+}
+.hang1{
+    display: flex;
+    justify-content: center;
+}
+.hang2{
+    display: flex;
+    justify-content: center;
+}
+.pagination{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.hmenu-bott{
+    list-style: none;
+    text-align: center;
+    margin-top: 75px;
+}
+.hmenu-bott li span{
+    display: block;
+    width: 60px;
+    height: 35px;
+    border-bottom:1px solid #e0e0e0;
+    position: relative;
+    color: #333;
+}
+.hmenu-bott li span::after{
+    content: "";
+    width: 60px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    bottom: 0;
+}
+.hmenu-bott > li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.hmenu-bott li a{
+    display: block;
+    width: 60px;
+    height: 35px;
+    border-bottom:1px solid #e0e0e0;
+    color: inherit;
+    text-decoration: none;
+}
+.tt{
+    position: absolute;
+}
+footer{
+    max-width: 100%;
+    height: 1400px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(198, 191, 191);
+    position: relative;
+}
+.footer-des{
+    width: 25%;
+    height: 560px;
+    float: left;
+    margin-top: 70px;
+}
+.footer-des-footer{
+    width: 100%;
+    height: 530px;
+    float: left;
+    margin-top: 180px;
+    position: relative;
+}
+.thongtin{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    padding-left: 70px;
+    font-size: 12px;
+}
+.mota{
+    width: 100%;
+    height: 560px;
+    padding-left: 70px;
+    margin-top: -8px;
+    border: 1px solid bl;
+}
+.mota > ul > li{
+    display: block;
+    margin: 0 0 -17px;
+}
+.mota > ul > li > a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mota-chinhanh > p > a{
+    color: #a17c5e;
+    text-underline-position: under;
+    display: block;
+    margin-top: 10px;
+}
+.mota-chinhanh > p{
+    margin-bottom: 30px;
+    font-size: small;
+}
+.mota-chinhanh{
+    margin-top: 7px;
+}
+.mota-chinhanh > p a:hover{
+    color: rgb(26, 26, 26);
+    transition: 0.7s;
+}
+.mb{
+    margin-bottom: 2px;
+}
+.chungnhan {
+    width: 50%;
+    height: 50px;
+}
+.chungnhan img{
+    max-width: 100%;
+    height: 35px;
+}
+.copy{
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+}
+.copy a{
+    padding-left: 70px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px; 
+}
+.gioithieu {
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.mota-gt p{
+    font-size: 14px;
+    line-height: 23px;
+}
+.time{
+    text-decoration: underline;
+    text-underline-position: under 1px;
+}
+.time span {
+    color: #333;
+   font-size: 12px;
+}
+.icon1{
+    width: 4%;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 75px;
+    float: left;
+}
+.icon1 a img{
+    width: 40%;
+    height: 25px;
+}
+.icon1 a{
+    padding-left: 20px;
+}
+.icon2{
+    width: 4%;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 75px;
+    float: left;
+    border-right: 1px solid rgb(198, 191, 191) ;
+}
+.icon2 a img{
+    width: 40%;
+    height: 25px;
+}
+.icon2 a{
+    padding-right: 20px;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 1170px;
+}
+.sp2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp2:hover::after{
+    background: url('/Men-image/tui-messenger-ipad-oxford-xam-bags-leonardo-14605409484905_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp3:hover::after{
+    background: url('/Men-image/tui-crossbody-oxford-xam-bags-leonardo-14605375701097_343031d1-d6f1-42d6-a2a5-f9464febacf0_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp4::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp4:hover::after{
+    background: url('/Men-image/tui-grand-oxford-bags-leonardo-13989880430697_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp5::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp5:hover::after{
+    background: url('/Men-image/6_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp6::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp6:hover::after{
+    background: url('/Men-image/9_27cdf696-70e1-402e-ac8a-3a028adf929f_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp7::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp7:hover::after{
+    background: url('/Men-image/DepLeoBlackSlide_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp8::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp8:hover::after{
+    background: url('/Men-image/vi-dai-vintage-wallet-leonardo-11637888155753_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp9::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp9:hover::after{
+    background: url('/Men-image/tui-tote-oxford-xam-bags-leonardo-14718956273769_37a566e6-b662-4906-8d33-946bb02127d8_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp10::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp10:hover::after{
+    background: url('/Men-image/vi-da-mini-vintage-vang-thumbnail-leonardo_15c12921-06af-40c1-a74f-81d87b99cac9_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp11::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp11:hover::after{
+    background: url('/Men-image/vi-card-mercury-taiga-wallet-leonardo-15441875402857_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp12::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp12:hover::after{
+    background: url('/Men-image/size_mau-15_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp13::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp13:hover::after{
+    background: url('/Men-image/vi-mini-pisa-wallet-leonardo-11640499437673_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp14::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp14:hover::after{
+    background: url('/Men-image/tui-deo-cheo-alex-leonardo-ecom2_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp15::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp15:hover::after{
+    background: url('/Men-image/Leonardo-Vi-Pisa_Bifold-den-goc_1_1400x_de5565ff-5538-48c6-ae25-4d8416989fe4_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
+.sp16::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.sp16:hover::after{
+    background: url('/Men-image/vi-cardholder-saint-midas-wallet-leonardo-28528277651631_600x.webp') center no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 380px;
+}
